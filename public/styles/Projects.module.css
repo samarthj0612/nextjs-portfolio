@@ -1,0 +1,60 @@
+.main {
+  width: 100%;
+  padding: 80px;
+}
+
+.main nav {
+  padding: 12px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+  border-bottom: 0.6px solid rgba(0, 0, 0, 0.300);
+  font-weight: 500;
+}
+
+.main nav h2 {
+  font-size: 26px;
+}
+
+.projects {
+  margin-bottom: 80px;
+}
+
+.project {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.6px solid rgba(0, 0, 0, 0.300);
+}
+
+.project>h1 {
+  font-size: 2.5vw !important;
+}
+
+.project h1 {
+  font-size: 3.4vw;
+}
+
+.seeMore {
+  font-weight: 600;
+}
+
+.seeMore h1 {
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 40px;
+  }
+
+  .project>h1 {
+    font-size: 20px !important;
+  }
+
+  .project h1 {
+    font-size: 25px;
+  }
+}

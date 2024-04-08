@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.382);
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.links a {
+  padding: 4px 15px;
+  border-radius: 10px;
+}
+
+.links a:hover {
+  background-color: rgba(0, 0, 0, 0.100);
+  transition: all 0.8s;
+}
+
+.loginBtn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+@media (max-width: 746px) {
+  .container {
+    padding: 20px;
+  }
+
+  .links {
+    display: none;
+  }
+}

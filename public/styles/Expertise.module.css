@@ -1,0 +1,54 @@
+.main {
+  padding: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main>div {
+  width: 45%;
+}
+
+.heading {
+  font-size: 3.5vw;
+  line-height: 4vw;
+  margin-bottom: 15px;
+  font-weight: 550;
+}
+
+.project {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.6px solid rgba(0, 0, 0, 0.300);
+}
+
+.project h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 40px;
+  }
+
+  .main>div {
+    width: 100%;
+  }
+
+  .heading {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .project {
+    margin-top: 20px;
+  }
+
+  .project h1 {
+    font-size: 15px;
+  }
+}

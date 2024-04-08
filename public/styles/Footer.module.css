@@ -1,0 +1,33 @@
+.main {
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.300);
+  flex-wrap: wrap;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+}
+
+.backToTopBtn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    justify-content: center;
+  }
+
+  .main p {
+    text-align: center;
+  }
+
+  .links {
+    margin: 20px 0px;
+  }
+}
